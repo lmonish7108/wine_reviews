@@ -9,3 +9,7 @@ Raw Data will land in Landing Area
 Raw data will then be falttened and transformed in to Staging Area
 Business views will be created in Semantic area
 Azure Data factory to pull data from Semantic area and push it to Power BI
+
+
+# Step 1: Move data securely from S3 to ADLS
+Referring the architecture pattern: https://learn.microsoft.com/en-us/azure/data-factory/data-migration-guidance-s3-azure-storage
