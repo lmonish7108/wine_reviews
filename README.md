@@ -1,18 +1,19 @@
 # Demo DataLake project on Azure Databricks
 
 ## TechStack
-
 - Azure Databricks: ETL
 - Azure DataFactory: Orchestration
 - Azure KeyVault: Saving Secrets like S3 access keys, Databricks access keys
 - Azure Entra: Using Entra to access ADLS in Databricks using Service Principal
 
-Key points:
+### Key points:
 - All Containers are mounted to Databricks workspace
 - Datafactory access to trigger Databricks notebook is through Databricks PAT
 - Keyvault is connected to Databricks via Databricks secrets API
 - Keyvault for other Azure service is connected using Managed Identity
 
+### ToDos:
+- Stream data processing using Spark Structured streaming
 
 ### Step 1: Ingestion
 <img width="713" alt="image" src="https://github.com/lmonish7108/wine_reviews/assets/44014424/ae0d5111-4a06-477e-a215-9be1a258b864">
